@@ -1,0 +1,70 @@
+/* styles.css */
+
+/* Применяем фоновый цвет или изображение ко всей странице */
+body {
+  background-color: rgba(85, 255, 170, 0.1); /* Светло-голубой цвет фона */
+  /* Или используйте фоновое изображение: */
+  /* background-image: url('путь_к_изображению.jpg'); */
+  background-size: cover; /* Растягиваем изображение на всю страницу */
+  background-repeat: no-repeat; /* Не повторяем изображение */
+  background-position: center; /* Центрируем изображение */
+  margin: 0; /* Убираем отступы по умолчанию */
+  padding: 0; /* Убираем отступы по умолчанию */
+  font-family: Arial, sans-serif; /* Задаем шрифт по умолчанию */
+}
+
+/* Стили для основного контента */
+.container {
+  width: 80%; /* Ширина контейнера */
+  margin: 0 auto; /* Центрируем контейнер по горизонтали */
+  padding: 20px; /* Отступы внутри контейнера */
+  background-color: rgba(48, 48, 48, 0.8); /* Полупрозрачный белый фон для контента */
+  border-radius: 10px; /* Закругляем углы контейнера */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Тень для контейнера */
+}
+
+/* Стили для заголовков */
+h1, h2, h3 {
+  color: #ffffff; /* Цвет текста заголовков */
+}
+.contact-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.contact-item {
+  width: calc(33.33% - 20px); /* 3 элемента в строке с отступами */
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #5285c9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.contact-item img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+/* Стили для параграфов */
+p {
+  color: #000000; /* Цвет текста параграфов */
+  line-height: 1.6; /* Межстрочный интервал */
+}
+pre {
+  color: #000000; /* Цвет текста параграфов */
+  line-height: 1.6; /* Межстрочный интервал */
+}
+/* Стили для ссылок */
+a {
+  color: #007bff; /* Цвет ссылок */
+  text-decoration: none; /* Убираем подчеркивание */
+}
+
+a:hover {
+  text-decoration: underline; /* Подчеркиваем ссылки при наведении */
+}
